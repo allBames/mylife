@@ -2,9 +2,10 @@ package ru.mylife.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class MylifeApplication {
+public class MylifeApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(MylifeApplication.class, args);
